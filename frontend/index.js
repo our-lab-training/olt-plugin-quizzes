@@ -1,4 +1,5 @@
 import placehold from './placehold.vue';
+import perms from '../perms';
 
 export default {
   ref: 'quizzes',
@@ -15,17 +16,7 @@ export default {
         '{groupId}.quizzes.read',
       ],
     },
-    quizzesAdmin: {
-      name: 'Manage Quizzes',
-      entry: true,
-      component: placehold,
-      path: '/group/{groupId}/quizzes/admin',
-      icon: 'assignment',
-      priority: 20,
-      visiblePerms: [
-        '{groupId}.quizzes.write',
-      ],
-    },
   },
   store: { quizzes: {}, attempts: {}, questions: {} },
+  perms,
 };

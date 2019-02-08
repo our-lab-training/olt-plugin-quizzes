@@ -11,7 +11,7 @@ export default {
       entry: true,
       component: placehold,
       path: '/group/{groupId}/quizzes',
-      icon: 'ballot',
+      icon: 'fal fa-ballot-check',
       visiblePerms: [
         '{groupId}.quizzes.read',
       ],

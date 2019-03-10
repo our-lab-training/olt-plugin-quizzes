@@ -4,13 +4,13 @@ import perms from '../perms';
 export default {
   ref: 'quizzes',
   name: 'Quizzes',
-  settingsLink: '/group/{groupId}/quizzes/settings',
+  // settingsLink: '/group/{groupId}/quizzes/settings',
   routes: {
     quizzes: {
       name: 'My Quizzes',
       entry: true,
       component: placehold,
-      path: '/group/{groupId}/quizzes',
+      path: '/org/{groupId}/quizzes',
       icon: 'fal fa-ballot-check',
       visiblePerms: [
         '{groupId}.quizzes.read',

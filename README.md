@@ -1,2 +1,2 @@
-# access-plugin-quizzes
-Access Quizzes Plugin
+# olt-plugin-quizzes
+Our Lab Training Quizzes Plugin
